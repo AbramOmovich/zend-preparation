@@ -21,6 +21,8 @@ return [
             new DocPage('Arrays', 'arrays'),
             new DocPage('Iterable', 'iterable'),
             new DocPage('Object', 'object'),
+            new DocPage('Resource', 'resource'),
+            new DocPage('Null', 'null'),
         ]),
     ])
 ];
