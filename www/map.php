@@ -11,6 +11,11 @@ return [
             new DocPage('Escaping from HTML', 'escaping-from-html'),
             new DocPage('Instruction separation', 'instruction-separation'),
             new DocPage('Comments', 'comments'),
-        ])
+        ]),
+        new SubCategory('Types','types', [
+            new DocPage('Introduction', 'introduction'),
+            new DocPage('Boolean', 'boolean'),
+            new DocPage('Integer', 'integer'),
+        ]),
     ])
 ];
