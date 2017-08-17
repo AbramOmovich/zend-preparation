@@ -1,8 +1,8 @@
 <?php
 
-namespace Doc\models;
+namespace Doc\Models;
 
-class RootCategory implements interfaces\Renderable
+class RootCategory implements Interfaces\Renderable
 {
     /**
      * @var SubCategory[]

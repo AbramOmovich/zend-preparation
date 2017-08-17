@@ -1,6 +1,6 @@
 <?php
 
-namespace Doc\models;
+namespace Doc\Models;
 
 class SubCategory
 {

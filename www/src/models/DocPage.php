@@ -1,6 +1,6 @@
 <?php
 
-namespace Doc\models;
+namespace Doc\Models;
 
 class DocPage
 {
@@ -14,7 +14,7 @@ class DocPage
         return $this;
     }
 
-    public function render($dir): string
+    public function render($dir) : string
     {
         return "<li><a href='{$dir}/{$this->fileName}.php'>{$this->name}</a></li>";
     }

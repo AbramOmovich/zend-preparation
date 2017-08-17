@@ -1,9 +1,9 @@
 <?php
 
-namespace Doc\models;
+namespace Doc\Models;
 
 
-class MenuRenderer
+class MenuRenderer implements Interfaces\Renderable
 {
     /**
      * @var RootCategory[]

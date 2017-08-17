@@ -1,6 +1,6 @@
 <?php
 
-namespace Doc\models\interfaces;
+namespace Doc\Models\Interfaces;
 
 interface Renderable
 {
