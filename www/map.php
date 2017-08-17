@@ -16,6 +16,10 @@ return [
             new DocPage('Introduction', 'introduction'),
             new DocPage('Boolean', 'boolean'),
             new DocPage('Integer', 'integer'),
+            new DocPage('Float', 'float'),
+            new DocPage('String', 'string'),
+            new DocPage('Arrays', 'arrays'),
+            new DocPage('Iterable', 'iterable'),
         ]),
     ])
 ];
