@@ -20,6 +20,7 @@ return [
             new DocPage('String', 'string'),
             new DocPage('Arrays', 'arrays'),
             new DocPage('Iterable', 'iterable'),
+            new DocPage('Object', 'object'),
         ]),
     ])
 ];
