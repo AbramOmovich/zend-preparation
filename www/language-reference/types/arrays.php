@@ -73,7 +73,7 @@
             $newArr []= 'a';
             $newArr [2] = 'b';
             $newArr []= 'c';
-            print_r($newArr)
+            dump($newArr)
         ?>
     </li>
     <li>

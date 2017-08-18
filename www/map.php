@@ -23,7 +23,13 @@ return [
             new DocPage('Object', 'object'),
             new DocPage('Resource', 'resource'),
             new DocPage('Null', 'null'),
-            new DocPage('Callables \\Callbacks', 'callable'),
+            new DocPage('Callables \\ Callbacks', 'callable'),
+            new DocPage('Type juggling', 'type-juggling'),
         ]),
+        new SubCategory('Variables', 'variables',[
+            new DocPage('Basics', 'basics'),
+            new DocPage('Predefined variables', 'predefined'),
+            new DocPage('Variable scope', 'scope'),
+        ])
     ])
 ];
