@@ -23,6 +23,7 @@ return [
             new DocPage('Object', 'object'),
             new DocPage('Resource', 'resource'),
             new DocPage('Null', 'null'),
+            new DocPage('Callables \\Callbacks', 'callable'),
         ]),
     ])
 ];
