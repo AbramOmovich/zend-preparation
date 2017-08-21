@@ -30,6 +30,7 @@ return [
             new DocPage('Basics', 'basics'),
             new DocPage('Predefined variables', 'predefined'),
             new DocPage('Variable scope', 'scope'),
+            new DocPage('Variable variable', 'variable-variable'),
         ])
     ])
 ];

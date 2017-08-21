@@ -1,9 +1,9 @@
 <?php
 error_reporting(E_ALL);
 
-require 'vendor/autoload.php';
-
 use Doc\Models\MenuRenderer;
+
+require 'vendor/autoload.php';
 
 $mapSrc = include 'map.php';
 $map = new MenuRenderer($mapSrc);
