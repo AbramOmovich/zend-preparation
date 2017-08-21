@@ -31,6 +31,11 @@ return [
             new DocPage('Predefined variables', 'predefined'),
             new DocPage('Variable scope', 'scope'),
             new DocPage('Variable variable', 'variable-variable'),
-        ])
+            new DocPage('External variables', 'external'),
+        ]),
+        new SubCategory('Constants', 'constants', [
+            new DocPage('Syntax', 'syntax'),
+            new DocPage('Magic constants', 'magic-constants')
+        ]),
     ])
 ];
