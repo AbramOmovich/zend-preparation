@@ -1,4 +1,6 @@
 <?php
+    echo '<pre>' . htmlspecialchars(file_get_contents(__FILE__)) . '</pre>';
+
     function passAround(iterable $values) : iterable {
         foreach ($values as $value){
             echo $value, '<br>';

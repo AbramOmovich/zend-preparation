@@ -37,5 +37,12 @@ return [
             new DocPage('Syntax', 'syntax'),
             new DocPage('Magic constants', 'magic-constants')
         ]),
+        new SubCategory('Expressions', 'expressions', [
+            new DocPage('Expressions', 'expressions')
+        ]),
+        new SubCategory('Operators', 'operators', [
+           new DocPage('Operators precedence', 'precedence'),
+           new DocPage('Bitwise operators', 'bitwise-operators')
+        ])
     ])
 ];
