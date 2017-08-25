@@ -45,6 +45,7 @@ return [
             new DocPage('Bitwise operators', 'bitwise-operators'),
             new DocPage('Comparison operators', 'comparison-operators'),
             new DocPage('Error control', 'error-control'),
+            new DocPage('Execution operator', 'execution'),
         ])
     ])
 ];
