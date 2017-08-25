@@ -44,7 +44,7 @@ return [
             new DocPage('Operators precedence', 'precedence'),
             new DocPage('Bitwise operators', 'bitwise-operators'),
             new DocPage('Comparison operators', 'comparison-operators'),
-            
+            new DocPage('Error control', 'error-control'),
         ])
     ])
 ];
