@@ -41,8 +41,10 @@ return [
             new DocPage('Expressions', 'expressions')
         ]),
         new SubCategory('Operators', 'operators', [
-           new DocPage('Operators precedence', 'precedence'),
-           new DocPage('Bitwise operators', 'bitwise-operators')
+            new DocPage('Operators precedence', 'precedence'),
+            new DocPage('Bitwise operators', 'bitwise-operators'),
+            new DocPage('Comparison operators', 'comparison-operators'),
+            
         ])
     ])
 ];

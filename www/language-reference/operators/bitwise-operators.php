@@ -1,6 +1,5 @@
 <?php
-echo '<pre>' . htmlspecialchars(file_get_contents(__FILE__)) . '</pre>';
-echo '<pre>';
+echo '<pre>' . htmlspecialchars(file_get_contents(__FILE__));
     $i = 16;
     $j = 80;
     var_dump($i << 10);
