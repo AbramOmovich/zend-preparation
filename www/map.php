@@ -46,6 +46,9 @@ return [
             new DocPage('Comparison operators', 'comparison-operators'),
             new DocPage('Error control', 'error-control'),
             new DocPage('Execution operator', 'execution'),
+            new DocPage('Incrementing operators', 'incrementing-operators'),
+            new DocPage('Logical operators', 'logical-operators'),
+            new DocPage('String operators', 'string-operators')
         ])
     ])
 ];
